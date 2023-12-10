@@ -1,8 +1,8 @@
 const { ethers, network } = require("hardhat")
 const fs = require("fs")
 
-const FRONT_END_ADDRESS_FILE = "../client/src/constants/contractAddress.json"
-const FRONT_END_ABI_FILE = "../client/src/constants/abi.json"
+const FRONT_END_ADDRESS_FILE = "../src/constants/contractAddress.json"
+const FRONT_END_ABI_FILE = "../src/constants/abi.json"
 
 module.exports = async function () {
     if (process.env.UPDATE_FRONT_END) {

@@ -28,6 +28,7 @@ git clone https://github.com/AnshKumar200/Fundgy.git
 cd Fundgy
 cd contracts
 yarn
+yarn hardhat deploy
 yarn hardhat node
 ```
 
@@ -87,12 +88,12 @@ Fundgy, in essence, facilitates a new era of crowdfunding by harnessing the powe
 
 ## How We Build It
 Fundgy harnesses a robust technology stack to drive its decentralized crowdfunding platform, ensuring reliability, security, and seamless functionality. The core components of our tech stack include:
-- React
-- Solidity
-- Ethers
-- Chainlink
-- Tailwind
-- Figma
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) <br>
+![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) <br>
+![Chainlink](https://img.shields.io/badge/Chainlink-375BD2?style=for-the-badge&logo=Chainlink&logoColor=white) <br>
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) <br>
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 
 ## Challenges We Ran Into
 ### Challenges We Faced:
